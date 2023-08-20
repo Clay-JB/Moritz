@@ -12,14 +12,8 @@ html{
 }
 
 
-/* NAV CARD */
-.CARD{
-	position: fixed;
-	bottom: 5%;
-	left: 2%;
-	z-index: 1;
-}
 
+/* NAV CARD */
 .contentCARD{
 	margin-left: 3%;
 	position: absolute;
@@ -50,64 +44,7 @@ html{
 
 
 
-/* NAV INDEX*/
-.INDEX{
-	position: fixed;
-	bottom: 7%;
-	left: 2%;
-	z-index: 1;
-}
-.sidenav2 {
-	height: 100%;
-	width: 0;
-	position: fixed;
-	z-index: 2;
-	top: 0;
-	left: 0;
-	background-color: #111;
-	overflow-x: hidden;
-	transition: 0.5s;
-	padding-top: 60px;
-}
-.sidenav2 a {
-	font-family: 'Tabular-Regular';
-	font-size: 1vw;	
-	line-height: 200%;
-	margin-left: 15%;
-	text-decoration: none;
-	color: whitesmoke;
-	opacity: 85%;
-	display: block;
-	transition: 0.3s;
-}
-.sidenav2 a:hover {
-	opacity: 100%;
-}
-.sidenav2 .closebtn {
-	position: absolute;
-	bottom: 8%;
-	leftt: 1%;
-	font-size: 2vw;
-}
 
-.LINKS{
-	position: absolute;
-	bottom: 15%;
-	leftt: 1%;
-	font-size: 2vw;
-}
-
-.LINKS a{
-	font-family: 'Satoshi-Regular';
-	font-size: 0.8vw;	
-	margin-left: 30%;
-	color: whitesmoke;
-	opacity: 85%;
-	transition: 0.3s;
-	width: 100%;
-	text-decoration: underline;
-
-}
 
 /*COLOUMN */
 .column1 {
