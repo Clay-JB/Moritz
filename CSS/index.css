@@ -1,33 +1,25 @@
-@import url("tabular.css");
-@import url("satoshi.css");
+@import url("commun.css");
 	
 /* CSS Document */
-html{
-	overflow-x: hidden;
-	margin: 0;
-	padding: 0;
-	background-color: whitesmoke;
-	scroll-behavior: smooth;
+
+:root {
+  --fond: whitesmoke;
+  --text: black;
 }
 
-#main {
-	transition: margin-left .5s;
-	margin: 2% 8%;
-	background-color: whitesmoke;
-	
-}
 
 /* NAV CARD */
 .CARD{
 	position: fixed;
 	bottom: 5%;
-	left: 2%
+	left: 2%;
+	z-index: 1;
 }
 
 .contentCARD{
 	margin-left: 3%;
 	position: absolute;
-	bottom: 10%;
+	bottom: 12%;
 	opacity: 0%;
 	transition: all 1s;
 	transition-delay: 0.2s;
@@ -37,7 +29,7 @@ html{
 	height: 100%;
 	width: 0;
 	position: fixed;
-	z-index: 2;
+	z-index: 3;
 	top: 0;
 	left: 0;
 	background-color: #F3E3DD;
@@ -45,23 +37,11 @@ html{
 	transition: 0.5s;
 	padding-top: 60px;
 }
-.sidenav1 a {
-	margin-left: 3%;
-	text-decoration: none;
-	font-size: 25px;
-	color: #818181;
-	display: block;
-	transition: 0.3s;
-}
-.sidenav1 a:hover {
-	color: #f1f1f1;
-}
+
 .sidenav1 .closebtn {
-	position: absolute;
-	bottom: 10%;
-	leftt: 1%;
 	font-size: 2vw;
 	color: #9b4788;
+	text-decoration: none;
 }
 
 
@@ -70,13 +50,14 @@ html{
 .INDEX{
 	position: fixed;
 	bottom: 7%;
-	left: 2%
+	left: 2%;
+	z-index: 1;
 }
 .sidenav2 {
 	height: 100%;
 	width: 0;
 	position: fixed;
-	z-index: 1;
+	z-index: 2;
 	top: 0;
 	left: 0;
 	background-color: #111;
@@ -114,7 +95,7 @@ html{
 
 .LINKS a{
 	font-family: 'Satoshi-Regular';
-	font-size: 0.9vw;	
+	font-size: 0.8vw;	
 	margin-left: 30%;
 	color: whitesmoke;
 	opacity: 85%;
@@ -156,53 +137,6 @@ html{
 .gallery{
 	width: 49%;
 }
-
-/*TEXT AND ALL*/
-
-h1, h4{
-	color: #9b4788;
-}
-
-h1{
-		font-family: 'Tabular-Regular';
-	font-size: 4vw;
-		letter-spacing: 1vw;
-}
-h2{
-	font-family: 'Tabular-Regular';
-	font-size: 2vw;
-	letter-spacing: 2vw;
-	text-transform: lowercase;
-}
-
-h3{
-	font-family: 'Satoshi-Bold';
-	font-size: 1vw;	
-	text-transform: uppercase;
-	line-height: 75%;
-}
-
-h4{
-	font-family: 'Satoshi-Regular';
-	font-size: 2vw;	
-}
-
-h5{
-	font-family: 'Satoshi-Light';
-	font-size: 1.4vw;	
-}
-
-
-p{
-	font-family: 'Satoshi-Regular';
-	font-size: 0.8vw;	
-	width: 90%;
-}
-
-em{
-	text-decoration: underline;
-}
-
 
 
 /*RESPONSIVE SHIT*/

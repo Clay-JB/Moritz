@@ -1,0 +1,115 @@
+/* CSS Document */
+@import url("tabular.css");
+@import url("satoshi.css");
+
+html, body{
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	background-color: var(--fond);
+	scroll-behavior: smooth;
+}
+
+#main {
+	transition: margin-left .5s;
+	margin: 2% 8%;
+	background-color: var(--fond);
+	
+}
+
+h1, h2{
+	color: #9b4788;
+}
+h1{
+	font-family: 'Tabular-Regular';
+	font-size: 4vw;
+	letter-spacing: 1vw;
+}
+h2{
+	font-family: 'Satoshi-Regular';
+	font-size: 2vw;	
+}
+h3{
+	font-family: 'Tabular-Regular';
+	font-size: 2vw;
+	letter-spacing: 2vw;
+	text-transform: lowercase;
+}
+h4{
+	font-family: 'Satoshi-Bold';
+	font-size: 1vw;	
+	text-transform: uppercase;
+	line-height: 75%;
+	
+}
+p{
+	font-family: 'Satoshi-Regular';
+	font-size: 1.4vw;	
+}
+.description{
+	font-family: 'Satoshi-Bold';
+	font-size: 0.7vw;	
+	width: 90%;
+}
+em{
+	text-decoration: underline;
+}
+
+/* NAV INDEX*/
+.INDEX{
+	position: fixed;
+	bottom: 7%;
+	left: 2%;
+	z-index: 1;
+}
+.sidenav2 {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+.sidenav2 a {
+	font-family: 'Tabular-Regular';
+	font-size: 1vw;	
+	line-height: 200%;
+	margin-left: 15%;
+	text-decoration: none;
+	color: whitesmoke;
+	opacity: 85%;
+	display: block;
+	transition: 0.3s;
+}
+.sidenav2 a:hover {
+	opacity: 100%;
+}
+.sidenav2 .closebtn {
+	position: absolute;
+	bottom: 8%;
+	leftt: 1%;
+	font-size: 2vw;
+}
+
+.LINKS{
+	position: absolute;
+	bottom: 15%;
+	leftt: 1%;
+	font-size: 2vw;
+}
+
+.LINKS a{
+	font-family: 'Satoshi-Regular';
+	font-size: 0.8vw;	
+	margin-left: 30%;
+	color: whitesmoke;
+	opacity: 85%;
+	transition: 0.3s;
+	width: 100%;
+	text-decoration: underline;
+
+}

@@ -1,72 +1,13 @@
-@import url("tabular.css");
-@import url("satoshi.css");
+@import url("commun.css");
 
 /* CSS Document */
-html, body{
-	overflow-x: hidden;
-	margin: 0;
-	padding: 0;
-	background-color: #5c4f4e;
+
+:root {
+  --fond: #78433c;
+  --text: #dfcdbe;
 }
 
 
-/* NAV INDEX*/
-.INDEX{
-	position: fixed;
-	bottom: 7%;
-	left: 2%
-}
-.sidenav2 {
-	height: 100%;
-	width: 0;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	background-color: #111;
-	overflow-x: hidden;
-	transition: 0.5s;
-	padding-top: 60px;
-}
-.sidenav2 a {
-	font-family: 'Tabular-Regular';
-	font-size: 1vw;	
-	line-height: 200%;
-	margin-left: 15%;
-	text-decoration: none;
-	color: whitesmoke;
-	opacity: 85%;
-	display: block;
-	transition: 0.3s;
-}
-.sidenav2 a:hover {
-	opacity: 100%;
-}
-.sidenav2 .closebtn {
-	position: absolute;
-	bottom: 8%;
-	leftt: 1%;
-	font-size: 2vw;
-}
-
-.LINKS{
-	position: absolute;
-	bottom: 15%;
-	leftt: 1%;
-	font-size: 2vw;
-}
-
-.LINKS a{
-	font-family: 'Satoshi-Regular';
-	font-size: 0.9vw;	
-	margin-left: 30%;
-	color: whitesmoke;
-	opacity: 85%;
-	transition: 0.3s;
-	width: 100%;
-	text-decoration: underline;
-
-}
 
 
 /*COLOUMN */
@@ -95,46 +36,6 @@ img{
 	width: 100%;
 }
 
-/*TEXT AND ALL*/
-
-h1{
-		font-family: 'Tabular-Regular';
-	font-size: 4em;
-		letter-spacing: 1vw;
-}
-
-h2{
-	font-family: 'Tabular-Regular';
-	font-size: 2em;
-	letter-spacing: 2vw;
-	text-transform: lowercase;
-}
-
-h3{
-	font-family: 'Satoshi-Bold';
-	font-size: 1em;	
-	text-transform: uppercase;
-}
-
-
-h4{
-	font-family: 'Satoshi-Regular';
-	font-size: 2em;	
-}
-
-h5{
-	font-family: 'Satoshi-Light';
-	font-size: 1.5vw;	
-}
-
-p{
-	font-family: 'Satoshi-Regular';
-	font-size: 1vw;	
-}
-
-em{
-	text-decoration: underline;
-}
 
 img, video{
 	display: block;
@@ -144,7 +45,7 @@ img, video{
 	position: absolute;
 	width: 35%;
 	margin-left: 30%;
-	margin-top: 30%;
+	margin-top: 20%;
 color: white;
 	padding: 5%;
 }
