@@ -53,6 +53,7 @@
 		</div>
 		
 		<div id="mySidenav2" class="sidenav2">
+			<div id="NAV">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav2()"><img style="width: 15%" src="LINKS/close-index.png" alt=""></a>
 			<a href="index.html">About</a>
 			<a style="font-size:0.8vw; margin-left:20%" href="#ILLU">illustration</a>
@@ -71,7 +72,7 @@
 				<a target="_blank" href="https://moritzh.itch.io/">ITCHIO</a>
 				<a style="font-size: 1vw" target="_blank" href="mailto:lutzmail@gmx.at">lutzmail@gmx.at</a>
 			</div>
-			
+			</div>
 		</div>
 		<div class="OPEN">
 			<span class="CARD" onclick="openNav()"><img style="width: 15%" src="LINKS/open-about.png" alt=""></span><br>
@@ -216,10 +217,14 @@
 			function openNav2() {
 				document.getElementById("mySidenav2").style.width = "15%";
 				document.getElementById("all").style.marginLeft = "15%";
+				document.getElementById("NAV").style.opacity = "100%";
+				document.getElementById("NAV").style.transitionDelay='.2s';
 			}
 			function closeNav2() {
 				document.getElementById("mySidenav2").style.width = "0";
 				document.getElementById("all").style.marginLeft = "0%";
+				document.getElementById("NAV").style.opacity = "0%";
+				document.getElementById("NAV").style.transitionDelay='-.8s';
 			}
 		</script>	
 		
