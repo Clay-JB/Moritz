@@ -6,6 +6,12 @@
   --text: #a2723f;
 }
 
+#main {
+	transition: margin-left .5s;
+	margin: 2% 8%;
+	background-color: var(--fond);
+}
+
 
 h3{
 	color: #cac6b4;

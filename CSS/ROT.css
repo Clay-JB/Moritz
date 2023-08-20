@@ -5,6 +5,12 @@
 
 }
 
+#main {
+	transition: margin-left .5s;
+	margin: 2% 8%;
+	background-color: var(--fond);
+}
+
 h3{
 	color: #a4503a;
 }

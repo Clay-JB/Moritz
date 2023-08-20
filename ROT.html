@@ -32,7 +32,7 @@
 	
 </head>
 
-<body>
+<body id="all">
 	
 		<div id="mySidenav2" class="sidenav2">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
@@ -114,26 +114,13 @@ I painted the inventory icons and some simple 2.5D assets, created splash art an
 	
 	
 	<script>
-		function openNav() {
-			document.getElementById("mySidenav1").style.width = "100%";
-			document.getElementById("main").style.marginLeft = "10%";
-			document.getElementById("about").style.opacity = "100%";
-			document.getElementById("about").style.transitionDelay='.2s';
-		}
-		function closeNav() {
-			document.getElementById("mySidenav1").style.width = "0";
-			document.getElementById("main").style.marginLeft= "8%";
-			document.getElementById("about").style.opacity = "0%";
-			document.getElementById("about").style.transitionDelay='-.7s';
-		}
-		
 		function openNav2() {
 			document.getElementById("mySidenav2").style.width = "15%";
-			document.getElementById("main").style.marginLeft = "18%";
+			document.getElementById("all").style.marginLeft = "15%";
 		}
 		function closeNav2() {
 			document.getElementById("mySidenav2").style.width = "0";
-			document.getElementById("main").style.marginLeft = "8%";
+			document.getElementById("all").style.marginLeft = "0%";
 		}
 	</script>	
 	
