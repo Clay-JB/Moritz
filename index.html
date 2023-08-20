@@ -1,44 +1,45 @@
+
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>MORITZ'S HOUSE</title>
-	<link href="CSS/index.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-	
-	<style>
-		::-webkit-scrollbar {
-			width: 10px;
-		}
-		/* Track */
-		::-webkit-scrollbar-track {
-			background: whitesmoke; 
-		}
+	<head>
+		<meta charset="utf-8">
+		<title>MORITZ'S HOUSE</title>
+		<link href="CSS/index.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 		
-		/* Handle */
-		::-webkit-scrollbar-thumb {
-			background: #9b4788; 
-		}
-		/* Handle on hover */
-		::-webkit-scrollbar-thumb:hover {
-			background: #9b4788; 
-			opacity: 90%;
-		}
+		<style>
+			::-webkit-scrollbar {
+				width: 10px;
+			}
+			/* Track */
+			::-webkit-scrollbar-track {
+				background: whitesmoke; 
+			}
+			
+			/* Handle */
+			::-webkit-scrollbar-thumb {
+				background: #9b4788; 
+			}
+			/* Handle on hover */
+			::-webkit-scrollbar-thumb:hover {
+				background: #9b4788; 
+				opacity: 90%;
+			}
+			
+			html{
+				scrollbar-color: #9b4788 whitesmoke;
+				scrollbar-width: thin;
+			}
+			
+		</style>
 		
-		html{
-	scrollbar-color: #9b4788 whitesmoke;
-	scrollbar-width: thin;
-		}
-		
-	</style>
-	
 	</head>
 	<body id="all">
 		
 		<div id="mySidenav1" class="sidenav1">
 			<div  id="about" class="contentCARD">
-	<video width="20%" autoplay loop src="https://docs.google.com/uc?export=download&id=10S0Ym8xaI-rSaesy8Y6D_SZjtbzaWkC0"></video>
+				<video width="20%" autoplay loop src="https://docs.google.com/uc?export=download&id=10S0Ym8xaI-rSaesy8Y6D_SZjtbzaWkC0"></video>
 				<h1>MORITZ H.</h1>
 				<div class="row">
 					<h2>22 year old artist from Austria, currently studying digital arts at the FHOOE Campus Hagenberg. <br>
@@ -65,51 +66,51 @@
 			<a href="ROT.html">Rhythm of Triverz</a>
 			
 			<div class="LINKS">
-			<a target="_blank" href="https://moritzh.tumblr.com/">ART BLOG</a>
-			<a target="_blank" href="https://moritzh.bandcamp.com/">BANDCAMP</a>
-			<a target="_blank" href="https://moritzh.itch.io/">ITCHIO</a>
-			<a style="font-size: 1vw" target="_blank" href="mailto:lutzmail@gmx.at">lutzmail@gmx.at</a>
+				<a target="_blank" href="https://moritzh.tumblr.com/">ART BLOG</a>
+				<a target="_blank" href="https://moritzh.bandcamp.com/">BANDCAMP</a>
+				<a target="_blank" href="https://moritzh.itch.io/">ITCHIO</a>
+				<a style="font-size: 1vw" target="_blank" href="mailto:lutzmail@gmx.at">lutzmail@gmx.at</a>
 			</div>
 			
 		</div>
 		<div class="OPEN">
 			<span class="CARD" onclick="openNav()"><img style="width: 15%" src="LINKS/open-about.png" alt=""></span><br>
 			<span class="INDEX" onclick="openNav2()"><img style="width: 15%" src="LINKS/open-index.png" alt=""></span>
+		</div>
+		
+		<h3 style="	margin: 2% 8%;" id="ILLU">Illustrations</h3>
+		<div class="carousel js-flickity" data-flickity='{ "wrapAround": true, "contain": true }'>
+			<div class="carousel-cell"> 
+				<img src="LINKS/ILLUSTRATIONS/illust1_botw.jpg" alt="orange tree" />
 			</div>
-			
-			<h3 style="	margin: 2% 8%;" id="ILLU">Illustrations</h3>
-			<div class="carousel js-flickity" data-flickity='{ "wrapAround": true, "contain": true }'>
-				<div class="carousel-cell"> 
-					<img src="LINKS/ILLUSTRATIONS/illust1_botw.jpg" alt="orange tree" />
-				</div>
-				<div class="carousel-cell">
-					<img src="LINKS/ILLUSTRATIONS/illust2_aa.jpg" alt="submerged" />
-				</div>
-				<div class="carousel-cell">
-					<img src="LINKS/ILLUSTRATIONS/illust3_album.jpg" alt="look-out" />
-				</div>
-				<div class="carousel-cell">
-					<img src="LINKS/ILLUSTRATIONS/illust4_pfps.jpg" alt="One World Trade" />
-				</div>
-				<div class="carousel-cell">
-					<img src="LINKS/ILLUSTRATIONS/illust5_visualdev.jpg" alt="drizzle" />
-				</div>
-				<div class="carousel-cell">
-					<img src="LINKS/ILLUSTRATIONS/illust6_characterillust.png" alt="cat nose" />
-				</div>
-				<div class="carousel-cell">
-					<img src="LINKS/ILLUSTRATIONS/illust7_dndmap.jpg" alt="contrail" />
-				</div>
-				<div class="carousel-cell">
-					<img src="LINKS/ILLUSTRATIONS/illust8_gamejam.png" alt="golden hour" />
-				</div>
-				<div class="carousel-cell">
-					<img src="LINKS/ILLUSTRATIONS/illust9_bus.jpg" alt="flight formation" />
-				</div>
+			<div class="carousel-cell">
+				<img src="LINKS/ILLUSTRATIONS/illust2_aa.jpg" alt="submerged" />
 			</div>
+			<div class="carousel-cell">
+				<img src="LINKS/ILLUSTRATIONS/illust3_album.jpg" alt="look-out" />
+			</div>
+			<div class="carousel-cell">
+				<img src="LINKS/ILLUSTRATIONS/illust4_pfps.jpg" alt="One World Trade" />
+			</div>
+			<div class="carousel-cell">
+				<img src="LINKS/ILLUSTRATIONS/illust5_visualdev.jpg" alt="drizzle" />
+			</div>
+			<div class="carousel-cell">
+				<img src="LINKS/ILLUSTRATIONS/illust6_characterillust.png" alt="cat nose" />
+			</div>
+			<div class="carousel-cell">
+				<img src="LINKS/ILLUSTRATIONS/illust7_dndmap.jpg" alt="contrail" />
+			</div>
+			<div class="carousel-cell">
+				<img src="LINKS/ILLUSTRATIONS/illust8_gamejam.png" alt="golden hour" />
+			</div>
+			<div class="carousel-cell">
+				<img src="LINKS/ILLUSTRATIONS/illust9_bus.jpg" alt="flight formation" />
+			</div>
+		</div>
 		
 		<div id="main">
-<br>
+			<br>
 			<p style="width: 64%">Most of my illustrations were made using Paint Tool Sai, Krita and Procreate, although I’m also well versed in Adobe Illustrator, Photoshop, and a host of more niche programs. I’ve been doing digital art for about a decade and am always looking to improve.</p>
 			
 			<div style="margin-top: 20%" class="row">
@@ -171,21 +172,18 @@
 			
 			
 			<h3 id="3D" style="margin-top: 10%">3D Modeling</h3>
-
-					<img class="gallery" src="LINKS/3D/3d1_toonenv1.jpg" alt="">
-					<img class="gallery" src="LINKS/3D/3d1_hütte1.jpg" alt="">
-					<img class="gallery" src="LINKS/3D/3d1_toonenv2.jpg" alt="">
-					<img class="gallery" src="LINKS/3D/3d1_hütte2.jpg" alt="">
-
+			<img class="gallery" src="LINKS/3D/3d1_toonenv1.jpg" alt="">
+			<img class="gallery" src="LINKS/3D/3d1_hütte1.jpg" alt="">
+			<img class="gallery" src="LINKS/3D/3d1_toonenv2.jpg" alt="">
+			<img class="gallery" src="LINKS/3D/3d1_hütte2.jpg" alt="">
 			<div style="margin-top: 5%" class="row">
 				<div class="column3">
 					<p>I have experience with Maya, Blender and Substance Painter, both modelling and animating. While 3D modelling itself is not my strong suit, creating concept art and texture painting in tandem with modellers is something I’ve come to enjoy greatly over the course of my studies. </p>
 					<p class="description"><br>Toonenv: <br> “3d Modelling Assignment ‘Toon Environment’, 2021.”  <br>
 						<br>Texturepaint: <br> “Basic texture paint for the Hagenberg gamejam 2022.”</p>
-
 				</div>
 				<div class="column4">
-										<img class="gallery" src="LINKS/3D/3d2_render1.jpg" alt="">
+					<img class="gallery" src="LINKS/3D/3d2_render1.jpg" alt="">
 					<img class="gallery" src="LINKS/3D/3d2_render2.jpg" alt="">
 					<img class="gallery" src="LINKS/3D/3d3_screenshot.jpg" alt="">
 					<img class="gallery" src="LINKS/3D/3d3_texturepaint.jpg" alt=""> 
