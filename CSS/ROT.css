@@ -1,7 +1,7 @@
 @import url("commun.css");
 
 :root {
-  --fond: #78433c;
+  --fond: #cabdbd;
 
 }
 
@@ -10,7 +10,7 @@ h3{
 }
 
 p{
-	color: #dfcdbe;
+	color: #78433c;
 }
 
 /* CSS Document */
