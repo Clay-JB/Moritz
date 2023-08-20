@@ -106,26 +106,22 @@
 }
 
 /*COLOUMN */
-.column {
-	float: left;
-	width: 48%;
-}
-.column img{
-	width: 100%;
-}
-
 .column1 {
+	float: left;
+	width: 49%;
+}
+.column2 {
+	float: right;
+	width: 49%;
+}
+.column3 {
 	float: left;
 	width: 32%;
 }
 
-.column1 img{
-	width: 49%;
-}
-
-.column2 {
+.column4 {
 	float: right;
-	width: 48%;
+	width: 64%;
 }
 
 .row:after {
