@@ -105,6 +105,7 @@
 					<img src="LINKS/ILLUSTRATIONS/illust9_bus.jpg" alt="flight formation" />
 				</div>
 			</div>
+		
 		<div id="main">
 <br>
 			<p style="width: 64%">Most of my illustrations were made using Paint Tool Sai, Krita and Procreate, although I’m also well versed in Adobe Illustrator, Photoshop, and a host of more niche programs. I’ve been doing digital art for about a decade and am always looking to improve.</p>
@@ -202,12 +203,14 @@
 				document.getElementById("main").style.marginLeft = "10%";
 				document.getElementById("about").style.opacity = "100%";
 				document.getElementById("about").style.transitionDelay='.2s';
+				document.getElementsByTagName('html')[0].style.overflow = "hidden";
 			}
 			function closeNav() {
 				document.getElementById("mySidenav1").style.width = "0";
 				document.getElementById("main").style.marginLeft= "8%";
 				document.getElementById("about").style.opacity = "0%";
 				document.getElementById("about").style.transitionDelay='-.8s';
+				document.getElementsByTagName('html')[0].style.overflow = "auto";
 			}
 			
 			function openNav2() {

@@ -7,6 +7,10 @@
   --text: black;
 }
 
+html{
+	overflow: hidden;
+}
+
 
 /* NAV CARD */
 .CARD{
@@ -33,7 +37,7 @@
 	top: 0;
 	left: 0;
 	background-color: #F3E3DD;
-	overflow-x: hidden;
+	overflow: hidden;
 	transition: 0.5s;
 	padding-top: 60px;
 }
