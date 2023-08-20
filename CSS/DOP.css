@@ -1,0 +1,195 @@
+@import url("tabular.css");
+@import url("satoshi.css");
+
+:root {
+  --fond: #15130f;
+  --text: #a2723f;
+}
+
+
+/* CSS Document */
+html{
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	background-color: var(--fond);
+}
+
+
+/* NAV CARD */
+.CARD{
+	position: fixed;
+	bottom: 5%;
+	left: 2%
+}
+
+.contentCARD{
+	margin-left: 3%;
+	position: absolute;
+	bottom: 5%;
+	opacity: 0%;
+	transition: all 1s;
+	transition-delay: 0.2s;
+}
+
+.sidenav1 {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	background-color: whitesmoke;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+.sidenav1 a {
+	margin-left: 3%;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+.sidenav1 a:hover {
+	color: #f1f1f1;
+}
+.sidenav1 .closebtn {
+	position: absolute;
+	bottom: 10%;
+	right: 1%;
+	font-size: 36px;
+}
+#main {
+	transition: margin-left .5s;
+	margin: 2% 8%;
+	background-color: var(--fond);
+	
+}
+
+/* NAV INDEX*/
+.INDEX{
+	position: fixed;
+	bottom: 7%;
+	left: 2%
+}
+.sidenav2 {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+.sidenav2 a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+.sidenav2 a:hover {
+	color: #f1f1f1;
+}
+.sidenav2 .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+/*COLOUMN */
+.column {
+	float: left;
+	width: 50%;
+}
+.column2 {
+	float: left;
+	width: 15%;
+	margin-right: 2%;
+}
+.column3 {
+	float: right;
+	width: 70%;
+	margin-bottom: 5%;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+img{
+	width: 100%;
+}
+
+
+
+/*TEXT AND ALL*/
+
+h1, h2, h3, h4 {
+	color: #cac6b4;
+}
+
+h1{
+		font-family: 'Tabular-Regular';
+	font-size: 4em;
+		letter-spacing: 1vw;
+}
+
+h2{
+	font-family: 'Tabular-Regular';
+	font-size: 2em;
+	letter-spacing: 2vw;
+	text-transform: lowercase;
+}
+
+h3{
+	font-family: 'Satoshi-Bold';
+	font-size: 1em;	
+	text-transform: uppercase;
+}
+
+h4{
+	font-family: 'Satoshi-Regular';
+	font-size: 2em;	
+	
+}
+
+p{
+	font-family: 'Satoshi-Regular';
+	font-size: 2em;	
+	color: var(--text);
+}
+
+em{
+	text-decoration: underline;
+}
+
+
+
+
+
+/*RESPONSIVE SHIT*/
+@media only screen and (max-width: 700px) {
+	.responsive {
+		width: 49.99999%;
+		margin: 6px 0;
+	}
+}
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.responsive {
+		width: 100%;
+	}
+}

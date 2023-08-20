@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="CSS/DAVE.css" rel="stylesheet" type="text/css">
+	
+			<style>
+		::-webkit-scrollbar {
+			width: 10px;
+		}
+		/* Track */
+		::-webkit-scrollbar-track {
+			background: #f1f1f1; 
+		}
+		
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+			background: #df9b50; 
+		}
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+			background: #df9b50; 
+		}
+		
+		html{
+			scrollbar-color: red orange;
+			scrollbar-width: thin;
+		}		
+	</style>
+	
+</head>
+
+<body>
+	
+			<div id="mySidenav2" class="sidenav2">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+			<a href="index.html">HOME</a>
+			<a href="DOP.html">DOP</a>
+			<a href="DAVE.html">DAVE</a>
+			<a href="ROT.html">ROT</a>
+		</div>
+
+		<span class="INDEX" onclick="openNav2()">Index</span>
+
+		<div class="tex1" style="margin-left: 55%">
+<h5>“Reiss di zom Dave” was a university assignment focused on teaching us the basics of Unity. We worked in a team of 4. I pitched the concept &amp; game mechanics, created concept art, created the soundtrack and made 2D assets. I also coded one of the minigames.</h5>
+		</div>
+	<img src="LINKS/DAVE/dave1_title.jpg" alt="">
+
+				<div class="tex2">
+<h5>The game is about helping a young man suffering from depression and executive dysfunction clean his room. “Dave” is a ragdoll the player can drag around to do chores. The player has to manage his motivation meter and work on a to-do list before being able to finish the final task (sending off an email) and letting Dave leave his room.</h5>
+		
+<iframe style="border: 0; width: 100%; height: 406px;" src="https://bandcamp.com/EmbeddedPlayer/album=3345140519/size=large/bgcol=868686/linkcol=71bbda/artwork=none/transparent=true/" seamless><a href="https://moritzh.bandcamp.com/album/reiss-di-zom-dave">Reiss Di Zom, Dave! de Moritz H.</a></iframe>
+	</div>
+			<img src="LINKS/DAVE/daveitems.jpg" alt="">
+	
+		
+<img src="LINKS/DAVE/dave_characterdesign.jpg" alt="">
+	
+	<img src="LINKS/DAVE/dave_layoutsketch.jpg" alt="">
+	<video controls width="100%" src="https://drive.google.com/uc?export=view&id=1kU19itWCev2Mtnt6FtnVCQ7nhRtmMjAC"></video>
+
+	<script>
+			function openNav() {
+				document.getElementById("mySidenav1").style.width = "100%";
+				document.getElementById("main").style.marginLeft = "10%";
+				document.getElementById("about").style.opacity = "100%";
+				document.getElementById("about").style.transitionDelay='.2s';
+			}
+			function closeNav() {
+				document.getElementById("mySidenav1").style.width = "0";
+				document.getElementById("main").style.marginLeft= "8%";
+				document.getElementById("about").style.opacity = "0%";
+				document.getElementById("about").style.transitionDelay='-.7s';
+			}
+			
+			function openNav2() {
+				document.getElementById("mySidenav2").style.width = "15%";
+				document.getElementById("main").style.marginLeft = "18%";
+			}
+			function closeNav2() {
+				document.getElementById("mySidenav2").style.width = "0";
+				document.getElementById("main").style.marginLeft = "8%";
+			}
+		</script>	
+</body>
+</html>

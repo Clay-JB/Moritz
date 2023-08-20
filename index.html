@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MORITZ'S HOUSE</title>
+	<link href="CSS/index.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+	
+	<style>
+		::-webkit-scrollbar {
+			width: 10px;
+		}
+		/* Track */
+		::-webkit-scrollbar-track {
+			background: #f1f1f1; 
+		}
+		
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+			background: #9b4788; 
+		}
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+			background: #9b4788; 
+		}
+		
+		html{
+			scrollbar-color: red orange;
+			scrollbar-width: thin;
+		}		
+	</style>
+	
+	</head>
+	<body>
+		
+		<div id="mySidenav1" class="sidenav1">
+			<div  id="about" class="contentCARD">
+	<video width="20%" autoplay loop src="https://docs.google.com/uc?export=download&id=10S0Ym8xaI-rSaesy8Y6D_SZjtbzaWkC0"></video>
+				<h1>MORITZ H.</h1>
+				<div class="row">
+					<h4>22 year old artist from Austria, currently studying digital arts at the FHOOE Campus Hagenberg. <br>
+						I do 2D Illustration, Music and Sound, 2D &amp; 3D animation, video editing and game design. <br>
+						<em>Currently looking for an internship starting February 2024!</em>
+					</h4>
+					
+				</div>
+			</div>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		</div>
+		
+		<div id="mySidenav2" class="sidenav2">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+			<a style="margin-bottom: -5%" href="index.html"><h3>HOME</h3></a>
+			<a href="#ILLU">illustration</a>
+			<a href="#AUDIO">audio</a>
+			<a href="#ANIM">animation</a>
+			<a href="#3D">3d modeling</a>
+			
+			<h3 style="color: white; margin-left: 10%; margin-top: 10%; font-size: 0.7vw">PROJECTS</h3>
+			<a href="DOP.html">Doppelgänger</a>
+			<a href="DAVE.html">Reiss di zom Dave</a>
+			<a href="ROT.html">Rhythm of Triverz</a>
+			
+			<div class="LINKS">
+			<a target="_blank" href="https://moritzh.tumblr.com/">ART BLOG</a>
+			<a target="_blank" href="https://moritzh.bandcamp.com/">BANDCAMP</a>
+			<a target="_blank" href="https://moritzh.itch.io/">ITCHIO</a>
+			<a target="_blank" href="mailto:lutzmail@gmx.at">CONTACT</a>
+			</div>
+			
+		</div>
+		
+		<div id="main">
+			<span class="INDEX" onclick="openNav2()">Index</span>
+			<span class="CARD" onclick="openNav()">Card</span>
+			
+			<h2 id="ILLU">Illustrations</h2>
+			<div class="carousel js-flickity" data-flickity='{ "wrapAround": true, "contain": true }'>
+				<div class="carousel-cell"> 
+					<img src="LINKS/ILLUSTRATIONS/illust1_botw.jpg" alt="orange tree" />
+				</div>
+				<div class="carousel-cell">
+					<img src="LINKS/ILLUSTRATIONS/illust2_aa.jpg" alt="submerged" />
+				</div>
+				<div class="carousel-cell">
+					<img src="LINKS/ILLUSTRATIONS/illust3_album.jpg" alt="look-out" />
+				</div>
+				<div class="carousel-cell">
+					<img src="LINKS/ILLUSTRATIONS/illust4_pfps.jpg" alt="One World Trade" />
+				</div>
+				<div class="carousel-cell">
+					<img src="LINKS/ILLUSTRATIONS/illust5_visualdev.jpg" alt="drizzle" />
+				</div>
+				<div class="carousel-cell">
+					<img src="LINKS/ILLUSTRATIONS/illust6_characterillust.png" alt="cat nose" />
+				</div>
+				<div class="carousel-cell">
+					<img src="LINKS/ILLUSTRATIONS/illust7_dndmap.jpg" alt="contrail" />
+				</div>
+				<div class="carousel-cell">
+					<img src="LINKS/ILLUSTRATIONS/illust8_gamejam.png" alt="golden hour" />
+				</div>
+				<div class="carousel-cell">
+					<img src="LINKS/ILLUSTRATIONS/illust9_bus.jpg" alt="flight formation" />
+				</div>
+			</div>
+			<h5 style="width: 64%">Most of my illustrations were made using Paint Tool Sai, Krita and Procreate, although I’m also well versed in Adobe Illustrator, Photoshop, and a host of more niche programs. I’ve been doing digital art for about a decade and am always looking to improve.</h5>
+			
+			<div style="margin-top: 20%" class="row">
+				<h2 id="AUDIO">Audio</h2>
+				<h5 style="width: 64%">I enjoyed an extensive musical education before university, and have since taken to composing, recording and mixing. I’ve recorded instruments and vocals for music, worked with synthesisers and samplers in Logic Pro X, I’ve been in charge of voice acting direction in a project with several hundred lines spread across about 10 voiceactors (myself included), recorded Foley, I’ve worked with FMOD for adaptive soundtrack and ambience, and cut, edited and mixed music, sfx, ui noises and ambience for games. </h5>
+				<div class="column">			
+					<h3>Music</h3>
+					<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3345140519/size=small/bgcol=ffffff/linkcol=0687f5/track=2744139238/transparent=true/" seamless><a href="https://moritzh.bandcamp.com/album/reiss-di-zom-dave">Reiss Di Zom, Dave! de Moritz H.</a></iframe>
+					<p>Theme song of 'Reiss di zom Dave', one of my first game projects. This one was made with beepbox, a free midi-tool website. The full album also features recorded guitar and piano, as well as garage band instrument tracks.</p>
+					<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1920693001/size=small/bgcol=ffffff/linkcol=0687f5/track=2383921104/transparent=true/" seamless><a href="https://moritzh.bandcamp.com/album/rhythm-of-triverz-demo-ost">Rhythm of Triverz Demo OST de Moritz H.</a></iframe>
+					<p>Opening song of the student project game Rhythm of Triverz. This plays during the startup menu, I wanted to create a sense of calm tension.</p>
+					
+					<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1920693001/size=small/bgcol=ffffff/linkcol=0687f5/track=2181746259/transparent=true/" seamless><a href="https://moritzh.bandcamp.com/album/rhythm-of-triverz-demo-ost">Rhythm of Triverz Demo OST de Moritz H., leosametinger</a></iframe>
+					<p>Bossfight theme of Rhythm of Triverz. The game features a rhythm element, so the entire song post intro is paced evenly. The rhythm signature changes, but the tempo sticks to 120 bpm. There are several stages of intensity to this song, in game they are dependent on the player's skill.</p>
+					<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2350129732/size=small/bgcol=ffffff/linkcol=0687f5/track=3253666645/transparent=true/" seamless><a href="https://moritzh.bandcamp.com/album/rotzbuab">Rotzbuab de Moritz H.</a></iframe>
+					<p>This one was made in about two hours for a gamejam. It was made using a variety of programs and is supposed to convey a silly, childish vibe.</p>
+					
+				</div>
+				
+				<div class="column">
+					<h3>SFX</h3>
+					<audio controls="controls">
+						<source src="https://docs.google.com/uc?export=download&id=1NC_Pbr24op8EGJ91CJrjdT1kUM1WZF5N"></audio><br>
+					<audio controls="controls">
+						<source src="https://docs.google.com/uc?export=download&id=1N4CGGh74J8tswb_eRhjBbmmsqKySPTaW"></audio><br>
+					<audio controls="controls">
+						<source src="https://docs.google.com/uc?export=download&id=1tYBCdmlJsm8T76zZXnkUStPmR75CNPeG"></audio><br>
+					<p>These are some of the foley sounds recorded for Rhythm of Triverz. We worked in a recording studio using props for these, although I’ve also done outdoor recording for ambience and used synths for sfx in small games with a more chiptune style.</p>
+					
+					<h3>VA</h3>
+					<audio controls="controls">
+						<source src="https://docs.google.com/uc?export=download&id=16EUxKsjqU3JLoU_Iixnk7UaHjDpLXZqc"></audio>
+					<p>Voiceacting reel from the as of now unreleased trailer for Rhythm of Triverz. I was in charge of voice direction as well as the recording process itself, together with Leo SAMETINGER. The voice acting was done in Austrian Dialect.</p>
+				</div>
+			</div>
+			
+			<h2 id="ANIM" style="margin-top: 10%">Animation</h2>
+			<div style="margin-top: 5%" class="row">
+				<div class="column2">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/lwPcCQLnUQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+				<div class="column1">
+					<p>Animation assignment from 2022. Made in blender grease pencil. I created the music using midi tracks and loops in Logic Pro X.</p>
+				</div>
+			</div>
+			<div style="margin-top: 5%" class="row">
+				<div class="column2">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/acb1p40PSqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+				<div class="column1">
+					<p>Music video for Sea Power’s ‘Doppelganger’, made in blender grease pencil in a team of three in 2022/2023. <a href="DOP.html">More info here</a></p>
+				</div>
+			</div>
+			
+			
+			
+			
+			
+			
+			<h2 id="3D" style="margin-top: 10%">3D Modeling</h2>
+			<div class="row">
+				<div class="column ">
+					<img class="gallery" src="LINKS/3D/3d1_toonenv1.jpg" alt="">
+					<img class="gallery" src="LINKS/3D/3d1_hütte1.jpg" alt=""></div>
+				<div class="column">
+					<img class="gallery" src="LINKS/3D/3d1_toonenv2.jpg" alt="">
+					<img class="gallery" src="LINKS/3D/3d1_hütte2.jpg" alt=""></div>
+			</div>
+			<div style="margin-top: 5%" class="row">
+				<div class="column2">
+					<img class="gallery" src="LINKS/3D/3d2_render1.jpg" alt="">
+					<img class="gallery" src="LINKS/3D/3d2_render2.jpg" alt="">
+					<img class="gallery" src="LINKS/3D/3d3_screenshot.jpg" alt="">
+					<img class="gallery" src="LINKS/3D/3d3_texturepaint.jpg" alt=""> 
+				</div>
+				<div class="column1">
+					<h5>I have experience with Maya, Blender and Substance Painter, both modelling and animating. While 3D modelling itself is not my strong suit, creating concept art and texture painting in tandem with modellers is something I’ve come to enjoy greatly over the course of my studies. </h5>
+					<p><br>Toonenv: <br> “3d Modelling Assignment ‘Toon Environment’, 2021.”  <br>
+						<br>Texturepaint: <br> “Basic texture paint for the Hagenberg gamejam 2022.”</p>
+				</div>
+			</div>
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		<script>
+			function openNav() {
+				document.getElementById("mySidenav1").style.width = "100%";
+				document.getElementById("main").style.marginLeft = "10%";
+				document.getElementById("about").style.opacity = "100%";
+				document.getElementById("about").style.transitionDelay='.2s';
+			}
+			function closeNav() {
+				document.getElementById("mySidenav1").style.width = "0";
+				document.getElementById("main").style.marginLeft= "8%";
+				document.getElementById("about").style.opacity = "0%";
+				document.getElementById("about").style.transitionDelay='-.8s';
+			}
+			
+			function openNav2() {
+				document.getElementById("mySidenav2").style.width = "15%";
+				document.getElementById("main").style.marginLeft = "18%";
+			}
+			function closeNav2() {
+				document.getElementById("mySidenav2").style.width = "0";
+				document.getElementById("main").style.marginLeft = "8%";
+			}
+		</script>	
+		
+		<script>
+			const slidesContainer = document.getElementById("slides-container");
+			const slide = document.querySelector(".slide");
+			const prevButton = document.getElementById("slide-arrow-prev");
+			const nextButton = document.getElementById("slide-arrow-next");
+			nextButton.addEventListener("click", () => {
+				const slideWidth = slide.clientWidth;
+				slidesContainer.scrollLeft += slideWidth;
+			});
+			prevButton.addEventListener("click", () => {
+				const slideWidth = slide.clientWidth;
+				slidesContainer.scrollLeft -= slideWidth;
+			});
+		</script>
+		
+		
+		
+	</body>
+</html>

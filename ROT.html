@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+<link href="CSS/ROT.css" rel="stylesheet" type="text/css">
+	
+		<style>
+		::-webkit-scrollbar {
+			width: 10px;
+		}
+		/* Track */
+		::-webkit-scrollbar-track {
+			background: #78433c; 
+		}
+		
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+			background: #7ca1a4; 
+		}
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+			background: #7ca1a4; 
+		}
+		
+		html{
+			scrollbar-color: red orange;
+			scrollbar-width: thin;
+		}		
+	</style>
+	
+</head>
+
+<body>
+	
+			<div id="mySidenav2" class="sidenav2">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+			<a href="index.html">HOME</a>
+			<a href="DOP.html">DOP</a>
+			<a href="DAVE.html">DAVE</a>
+			<a href="ROT.html">ROT</a>
+		</div>
+	
+	<div id="main">
+		<span class="INDEX" onclick="openNav2()">Index</span>
+		<span class="CARD" onclick="openNav()">Card</span>
+		
+		<h2>ROT</h2>
+		<iframe style="border: 0; width: 100%; height: 307px;" src="https://bandcamp.com/EmbeddedPlayer/album=1920693001/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="https://moritzh.bandcamp.com/album/rhythm-of-triverz-demo-ost">Rhythm of Triverz Demo OST de Moritz H., leosametinger,</a></iframe>
+
+		
+		<img src="LINKS/ROT/rot1_splashart.jpg" alt="">
+
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav1").style.width = "100%";
+			document.getElementById("main").style.marginLeft = "10%";
+			document.getElementById("about").style.opacity = "100%";
+			document.getElementById("about").style.transitionDelay='.2s';
+		}
+		function closeNav() {
+			document.getElementById("mySidenav1").style.width = "0";
+			document.getElementById("main").style.marginLeft= "8%";
+			document.getElementById("about").style.opacity = "0%";
+			document.getElementById("about").style.transitionDelay='-.7s';
+		}
+		
+		function openNav2() {
+			document.getElementById("mySidenav2").style.width = "15%";
+			document.getElementById("main").style.marginLeft = "18%";
+		}
+		function closeNav2() {
+			document.getElementById("mySidenav2").style.width = "0";
+			document.getElementById("main").style.marginLeft = "8%";
+		}
+	</script>	
+	
+	
+</body>
+</html>

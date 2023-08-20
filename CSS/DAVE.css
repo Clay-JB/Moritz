@@ -1,0 +1,153 @@
+@import url("tabular.css");
+@import url("satoshi.css");
+
+/* CSS Document */
+html, body{
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	background-color: #5c4f4e;
+}
+
+
+/* NAV INDEX*/
+.INDEX{
+	position: fixed;
+	bottom: 7%;
+	left: 2%
+}
+.sidenav2 {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+.sidenav2 a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+.sidenav2 a:hover {
+	color: #f1f1f1;
+}
+.sidenav2 .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+/*COLOUMN */
+.column {
+	float: left;
+	width: 50%;
+}
+.column2 {
+	float: left;
+	width: 35%;
+	margin-right: 2%;
+}
+.column3 {
+	float: right;
+	width: 50%;
+	margin-bottom: 5%;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+img{
+	width: 100%;
+}
+
+/*TEXT AND ALL*/
+
+h1{
+		font-family: 'Tabular-Regular';
+	font-size: 4em;
+		letter-spacing: 1vw;
+}
+
+h2{
+	font-family: 'Tabular-Regular';
+	font-size: 2em;
+	letter-spacing: 2vw;
+	text-transform: lowercase;
+}
+
+h3{
+	font-family: 'Satoshi-Bold';
+	font-size: 1em;	
+	text-transform: uppercase;
+}
+
+
+h4{
+	font-family: 'Satoshi-Regular';
+	font-size: 2em;	
+}
+
+h5{
+	font-family: 'Satoshi-Light';
+	font-size: 1.5vw;	
+}
+
+p{
+	font-family: 'Satoshi-Regular';
+	font-size: 1vw;	
+}
+
+em{
+	text-decoration: underline;
+}
+
+img, video{
+	display: block;
+}
+
+.tex1{
+	position: absolute;
+	width: 35%;
+	margin-left: 30%;
+	margin-top: 30%;
+color: white;
+	padding: 5%;
+}
+
+.tex2{
+	position: absolute;
+	width: 35%;
+	margin-left: 30%;
+	margin-top: 5%;
+color: white;
+	padding: 5%;
+}
+
+/*RESPONSIVE SHIT*/
+@media only screen and (max-width: 700px) {
+	.responsive {
+		width: 49.99999%;
+		margin: 6px 0;
+	}
+}
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.responsive {
+		width: 100%;
+	}
+}
