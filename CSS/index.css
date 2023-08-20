@@ -20,14 +20,14 @@
 	margin-left: 3%;
 	position: absolute;
 	bottom: 12%;
-	opacity: 0%;
+	opacity: 100%;
 	transition: all 1s;
 	transition-delay: 0.2s;
 }
 
 .sidenav1 {
 	height: 100%;
-	width: 0;
+	width: 100%;
 	position: fixed;
 	z-index: 3;
 	top: 0;
