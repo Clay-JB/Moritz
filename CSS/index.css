@@ -11,10 +11,7 @@ html{
 	overflow: hidden;
 }
 
-#NAV{
-		transition: all 1s;
-	transition-delay: 0.2s;
-}
+
 
 /* NAV CARD */
 .contentCARD{
